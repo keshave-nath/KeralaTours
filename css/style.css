@@ -1,0 +1,366 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family:  "Poppins", sans-serif;
+}
+a{
+    color: white;
+    font-weight: bold;
+}
+.outer{
+    width: 100%;
+}
+.inner{
+    width: 100%;
+    box-shadow: 0px 5px 5px 0px gray;
+
+}
+.header{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu>ul{
+    display: flex;
+    gap: 15px; 
+    font-size: 18px;
+}
+.quote button{
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    background: #ff6000;
+    font-weight: bold;
+}
+.banner{
+    width: 100%;
+    /* height: 100%; */
+    margin-top: 5px;
+    background: url("images/3.webp") center;
+    background-size: cover;
+  
+}
+.banner-color{
+    width: 100%;
+    background: #070707b3;
+    color: white;
+    display: flex;
+}  
+.off{
+    flex-basis: 65%;
+    padding: 120px 0px 220px 150px ;
+}
+.off h1{
+    font-size: 60px;
+}
+.off h4{
+    font-size: 20px;
+    padding: 10px 0px 30px 0px ;
+}
+.off button{
+    padding: 14px 35px ;
+    border-radius: 5px;
+    background: #ff6000;
+    border: none;
+}
+.getquote{
+    flex-basis: 30%;
+    margin: 3% 6% 3% 0%;
+
+}
+.form{
+    width: 68%;
+    margin: 50px 100px 50px 50px;
+    
+    /* margin: 50px; */
+    padding: 20px;
+    background:white;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    font-size: 22px;
+}
+.form input{
+    padding: 10px 120px 10px 20px;
+    margin: 10px 0px;
+}
+.form label button{
+    background: #ff6000;
+    padding: 10px 117px;
+    border: none;
+    color: white;
+    margin: 10px 0px;
+}
+.packages-main{
+    width: 100%;
+
+
+}
+.packages-mid{
+    width: 1200px; 
+    margin: auto;
+    padding: 100px 0px;
+    text-align: center;
+}
+.pack-head h3{
+    font-family:  "Kaushan Script", cursive;
+    color: #22a813;
+    font-size: 25px;
+    font-weight: normal;
+}
+.pack-head h2{
+    font-size: 45px;
+    margin: 10px 0px;
+}
+.border{
+    width: 4%;
+    height: 3px;
+    margin: auto;
+    background: #22a813; 
+}
+.pack-head p{
+    padding: 25px 0px;
+}
+.booknow{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.book{
+    width: 30%;
+    text-align: center;
+    margin: 35px 1.5% 0px 1.5%;
+    border-radius: 10px ;
+    box-shadow: 0px 1px 10px -2px rgba(0, 0, 0,02);
+}
+.book img{
+    border-radius: 10px;
+}
+.book h4{
+    padding: 15px 0px;
+}
+.book h3{
+    padding: 0px 20px ;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333346;
+}
+.book p{
+    padding: 0px 10px;
+}
+.facility{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 10px 10px 10px ;
+}
+.facility>div{
+    flex-basis: 30%;
+    border: 1px solid #333346;
+    padding: 8px 20px;
+    margin: 10px 10px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 20px;
+}
+.facility h3{
+    color: #22a813;
+    margin: auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+.facility button{
+    padding: 10px 125px;
+    border: none;
+    text-align: center;
+    background: #ff6000;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.about-main{
+    width: 100%;
+    background: url("images/2.webp") center;
+    background-size: cover;
+}
+.about{
+    position: relative;
+    background: #070707b3;
+    margin: auto;
+    text-align: center;
+    padding: 80px 0px 120px 0px;
+
+
+}
+.about h2{
+    font-family:  "Kaushan Script", cursive;
+    color: #22a813;
+    /* font-size: 25px; */
+    font-weight: normal;
+}
+.about h1{
+    color: white;
+    font-size: 50px;
+}
+.about p{
+    color: white;
+    padding: 22px 0px;
+}
+.about video{
+    width: 420px;
+    height: 420px;
+    position: absolute;
+    right: 36%;
+    top: 54%;
+}
+.benefit-main{
+    width: 100%;
+    margin: 250px 0px 100px 0px ;
+}
+.benefit-mid{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.benefit-1st{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+.bene1{
+    flex-basis: 27%;
+    margin: 12px 14px;
+    padding: 18px 6px;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0px 0px 6px 0px gray;
+    color: black;
+    font-size: 17px;
+}
+.bene1 i{
+    color: #22a813;
+    margin-right: 10px;
+    font-size: 28px;
+}
+.testimonial{
+    margin: auto;
+    text-align: center;
+    width: 1200px;
+}
+.customers{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-style: italic;
+}
+.cust1{
+    flex-basis: 45%;
+    background: #f3f4f6;
+    border-radius: 10px ;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0px gray;
+    margin: 10px 0px;
+}
+.cust1 h4{
+    padding: 10px 0px;
+}
+.dis-main{
+    width: 100%;
+    margin: 80px 0px;
+    background: url("images/4.jpg") center ;
+}
+.main-color{
+    margin: auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.801);
+}
+.main-color button{
+    margin: 10px 0px 20px 0px;
+    padding: 12px 35px;
+    background: #ff6000;
+    border: none;
+    border-radius: 10px;
+}
+.faqs{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.question{
+    width: 70%;
+    margin:20px auto;
+    text-align: left;
+    padding: 10px 20px;
+    background: #f3f4f6;
+}
+.question h2{
+    
+    font-size: 20px    
+}
+.quote-mid{
+    width: 1200px;
+    margin: 80px auto;
+    text-align: center;
+}
+.lable input{
+    margin: 7px 0px;
+    border: none;
+    /* box-shadow: 0px 0px 10px 0px gray; */
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.lable1{
+    margin: 7px 0px;
+    border: none;
+    box-shadow: 0px 0px 10px -4px gray;
+    /* padding: 10px 40px; */
+    border-radius: 5px;  
+}
+.lable{
+    margin: auto;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+}
+.lable button{
+    padding: 14px 35px ;
+    border-radius: 5px;
+    background: #ff6000;
+    border: none;
+    color: white;
+}
+.presence-main{
+    width: 100%;
+    background: #f3f4f6;
+}
+.presence-mid{
+    width: 1120px;
+    margin: auto;
+    padding: 80px;
+    text-align: center;
+}
+.presence-mid h3{
+    font-family:  "Kaushan Script", cursive;
+    color: #22a813;
+    font-size: 25px;
+    font-weight: normal;
+}
+.icon i{
+    margin: 5px ;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background: white;
+    border: none;
+}
